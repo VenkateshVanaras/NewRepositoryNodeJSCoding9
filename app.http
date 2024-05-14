@@ -1,0 +1,32 @@
+
+
+####
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "Shailaja_Venkatesh",
+  "name": "Shaila Venkatesh",
+  "password": "Shailaja and Venkatesh are made for each other",
+  "gender": "fe-male",
+  "location": "Saidabad"
+}
+
+####
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "Shailaja_Venkatesh",
+  "password": "Shailaja and Venkatesh are made for each other"
+}
+
+####
+PUT http://localhost:3000/change-password
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "oldPassword": "richard_567",
+  "newPassword": "richard@123"
+}
